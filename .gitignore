@@ -1,0 +1,7 @@
+.DS_Store
+
+# DMGs are published as GitHub Release assets, never committed. A repository that
+# accumulates every binary it has ever shipped turns a five-megabyte app into a
+# multi-gigabyte clone, and Sparkle only ever fetches from the release URL anyway.
+*.dmg
+*.zip
